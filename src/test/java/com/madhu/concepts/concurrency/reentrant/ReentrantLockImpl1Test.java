@@ -9,6 +9,7 @@ public class ReentrantLockImpl1Test {
     static final int MAX_T = 4;
 
     public static void main(String[] args) {
+        //This is a test method that's done to verify the ReentrantLock functionality.
         ReentrantLock relObject = new ReentrantLock();
         ExecutorService pool
                 = Executors.newFixedThreadPool(MAX_T);
